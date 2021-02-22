@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #b91450;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin: 60px 0 30px;
+}
+
+#compilation {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 2px 2px 6px black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.container_data {
+    display: inline-block;
+    margin: 30px;
+    
+}
+.container_data p {
+    color: #b91450;
+    margin-bottom: 10px;
+}
+.data {
+    border: 1px solid #b91450;
+    border-radius: 5px;
+    text-align: center;
+    padding: 4px 0;
+}
+.select_age {
+    padding-right: 20px;
+}
+
+.btn {
+    padding: 40px 0 20px;
+}
+.button_form {
+    padding: 5px;
+    color: #b91450;
+    background-color: lightgrey;
+    font-weight: 900;
+    border-radius: 5px;
+
+}
+
+#ticket {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+}
+
+table {
+    padding: 20px;
+    border-top: 1px solid #808080;
+    border-bottom: 1px solid #808080;
+}
+thead th {
+    width: 20%;
+}
+
+.row_data td {
+    padding: 0 50px;
+}

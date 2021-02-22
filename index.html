@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/master.css">
+    <title>form with js</title>
+</head>
+<body>
+    <h1>Calcola il prezzo del tuo biglietto</h1>
+    <div id="compilation">
+        <div class="container_data">
+            <p>Nome cognome</p>
+            <input type="text" class="data" id="name" placeholder="inserisci il tuo nome">
+        </div>
+        <div class="container_data">
+            <p>Km da percorrere</p>
+            <input type="number" class="data" id="km" placeholder="inserisci i kilometri">
+        </div>
+        <div class="container_data">
+            <p>fascia d'età</p>
+            <select id="range_age" class="select_age data">
+                <option value="minorenne">minorenne</option>
+                <option value="standard">standard</option>
+                <option value="old65">old 65</option>
+            </select>
+        </div>
+        <div class="btn">
+            <button class="button_form" id="create">Genera</button>
+            <button class="button_form" id="reset">Annulla</button>
+        </div>
+    </div>
+    <h1>IL TUO BIGLIETTO</h1>
+    <div id="ticket">
+        <h2>DETTAGLIO PASSEGGERI</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>NOME PASSEGGERO</th>
+                    <th>Offerta</th>
+                    <th>Carrozza</th>
+                    <th>Codice CP</th>
+                    <th>Costo biglietto</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="name_passenger" colspan="5"></td>
+                </tr>
+                <tr class="row_data">
+                    <td></td>
+                    <td id="type_ticket"></td>
+                    <td id="carriage"></td>
+                    <td id="code"></td>
+                    <td id="price"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
