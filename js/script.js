@@ -50,6 +50,10 @@ button.addEventListener("click",
         } else {
             document.getElementById("price").innerHTML = costoBiglietto;
         }
+
+        // rendo visibile il ticket
+        var ticket = document.getElementById("ticket");
+        ticket.className = "display_show";
     }
 )
 

@@ -61,11 +61,33 @@ h1 {
     width: 80%;
     margin: 0 auto;
 }
+.display_none {
+    display: none;
+}
+.display_show {
+    display: block;
+}
+
+.data_ticket {
+    display: flex;
+    margin-top: 20px;
+    height: 100px;
+}
+.passenger {
+    width: 30%;
+    height: 100%;
+    background-color: grey;
+}
 
 table {
+    width: 70%;
+    height: 100%;
     padding: 20px;
     border-top: 1px solid #808080;
     border-bottom: 1px solid #808080;
+}
+.row_data {
+    text-align: center;
 }
 thead th {
     width: 20%;

@@ -32,31 +32,32 @@
         </div>
     </div>
     <h1>IL TUO BIGLIETTO</h1>
-    <div id="ticket">
+    <div id="ticket" class="display_none">
         <h2>DETTAGLIO PASSEGGERI</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>NOME PASSEGGERO</th>
-                    <th>Offerta</th>
-                    <th>Carrozza</th>
-                    <th>Codice CP</th>
-                    <th>Costo biglietto</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td id="name_passenger" colspan="5"></td>
-                </tr>
-                <tr class="row_data">
-                    <td></td>
-                    <td id="type_ticket"></td>
-                    <td id="carriage"></td>
-                    <td id="code"></td>
-                    <td id="price"></td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="data_ticket">
+            <div class="passenger">
+                <h2>Nome passeggero</h2>
+                <h3 id="name_passenger"></h3>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Offerta</th>
+                        <th>Carrozza</th>
+                        <th>Codice CP</th>
+                        <th>Costo biglietto</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="row_data">
+                        <td id="type_ticket"></td>
+                        <td id="carriage"></td>
+                        <td id="code"></td>
+                        <td id="price"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
     <script type="text/javascript" src="js/script.js"></script>
 </body>
